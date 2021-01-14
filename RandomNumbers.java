@@ -15,7 +15,7 @@ import java.util.Set;
 public class RandomNumbers {
 //	public static void main(String [] args)
 	{
-	Random rd = new Random();// Random class to generate random numbers
+	//Random rd = new Random();// Random class to generate random numbers
 	Integer[] intArray = new Integer[100];// declaration of array to store 100 integers
 	for (int i = 0; i < intArray.length; i++) {
 		intArray[i] = rd.nextInt(30); // storing random integers from 1 to 30 in an array
