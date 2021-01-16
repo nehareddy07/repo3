@@ -33,7 +33,7 @@ public class RandomNumbers {
 	ArrayList<Integer> al = new ArrayList<>(); // Creating an array list to use for sorting 
 	al.addAll(se);// adding the set to list 
 	Collections.sort(al);// sorting the list
-	System.out.println(al);// printing in ascending order
+	System.out.println(al);// printing in ascending order..
     se.clear();// removing all the elements from th set
     Collections.reverse(al);// reversing the list to descending order
     System.out.println();
