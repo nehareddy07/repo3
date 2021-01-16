@@ -42,6 +42,6 @@ public class RandomNumbers {
         System.out.print(" " + i); // printiong in descending order
     }
 
-	
+	//
 }
 }
