@@ -27,7 +27,7 @@ pipeline {
         stage("Build and start test image") {
             steps {
                 sh "docker-composer build"
-                sh "docker-compose up -d"
+                sh "docker-compose  up -d"
                 waitUntilServicesReady
             }
         }
