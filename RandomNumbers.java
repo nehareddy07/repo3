@@ -34,7 +34,7 @@ public class RandomNumbers {
 	al.addAll(se);// adding the set to list 
 	Collections.sort(al);// sorting the list
 	System.out.println(al);// printing in ascending order....
-    se.clear();// removing all the elements from th set
+    se.clear();// removing all the elements from th set22
     Collections.reverse(al);// reversing the list to descending order
     System.out.println();
     System.out.println("Random integers in the descending order");
