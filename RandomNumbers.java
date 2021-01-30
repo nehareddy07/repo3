@@ -29,7 +29,7 @@ public class RandomNumbers {
 	{
 		se.add(intArray[i]);// adding the integers to set
 	}
-	
+	// just like that
 	ArrayList<Integer> al = new ArrayList<>(); // Creating an array list to use for sorting 
 	al.addAll(se);// adding the set to list 
 	Collections.sort(al);// sorting the list
